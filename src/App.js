@@ -1,9 +1,10 @@
 import React from "react";
+import Home from "./pages/Home/index";
 
 export default function App() {
   return (
     <div>
-      <h1>Games Geek BR</h1>
+      <Home/>
     </div>
   );
 }

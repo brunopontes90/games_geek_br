@@ -1,11 +1,17 @@
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Home from './pages/Home/index';
+import Contato from './pages/Contato/index';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path={'home'} exact element={<Home />} />
+        <Route path={'contato'} exact element={<Contato />} />
+      </Routes>
+    </BrowserRouter>,
+    document.getElementById('root')
 );
