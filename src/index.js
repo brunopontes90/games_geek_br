@@ -1,7 +1,7 @@
 import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './pages/Home/index';
+import Sobre from './pages/Sobre';
 import Contato from './pages/Contato/index';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -9,7 +9,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path={'home'} exact element={<Home />} />
+        <Route path={'sobre-nos'} element={<Sobre />}/>
         <Route path={'contato'} exact element={<Contato />} />
       </Routes>
     </BrowserRouter>,

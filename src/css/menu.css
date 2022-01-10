@@ -1,0 +1,40 @@
+:root{
+    --black: #000000;
+    --ice: #F2F2F2;
+    --orange: #FF8000;
+}
+
+body{
+    margin: 0%;
+}
+
+#img{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url('../image/banner.jpg');
+    background-size: 100%;
+}
+
+ul{
+    margin: 0px;
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: center;
+    background-color: var(--black);
+}
+
+.link{
+    padding: 2px;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: var(--orange);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link:hover{
+    font-size: 16pt;
+}
