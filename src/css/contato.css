@@ -1,0 +1,67 @@
+:root{
+    --orange: #FF8000;
+    --black: #000000;
+    --gray: #BDBDBD;
+    --blue: #0404B4;
+    --red: #FF0000;
+    --white: #FFFFFF;
+}
+
+#formulario{
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: var(--orange);
+    box-shadow: var(--gray) 3px 2px 2px 2px;
+}
+
+#h1-faleConosco{
+    font-weight: bold;
+    color: var(--gray);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form{
+    font-size: 15pt;
+}
+
+.dados{
+    margin-bottom: 15px;
+}
+
+.obrigatorio{
+    color: var(--red);
+}
+
+.input{
+    height: 18px;
+    width: 300px;
+    margin-left: 5px;
+}
+
+#msg{
+    margin-top: 15px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12pt;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--white);
+    text-transform: uppercase;
+    background-color: var(--blue);
+}
+
+button:hover{
+    color: var(--red);
+    background-color: var(--black);
+}

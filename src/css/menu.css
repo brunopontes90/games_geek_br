@@ -2,6 +2,8 @@
     --black: #000000;
     --orange: #FF8000;
     --white: #FFFFFF;
+    --blue:  #665cbe;
+    --green: #9bc848;
 }
 
 body{
@@ -10,9 +12,9 @@ body{
 
 #img{
     height: 400px;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-image: url('../image/banner.jpg');
-    background-size: 100%;
 }
 
 ul{
@@ -38,4 +40,28 @@ ul{
 .link:hover{
     font-size: 15pt;
     color: var(--orange);
+}
+
+#play{
+    color: var(--blue);
+    font-size: 40pt;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#play:hover{
+    font-size: 41pt;
+}
+
+#xbox{
+    color: var(--green);
+    font-size: 40pt;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#xbox:hover{
+    font-size: 41pt;
 }
