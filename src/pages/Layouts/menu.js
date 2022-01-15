@@ -29,6 +29,11 @@ export default function Menu()
                         <i class="fab fa-xbox" id='xbox'></i>
                     </Link>
                 </li>
+                <li>
+                    <Link to="/steam">
+                        <i class="fab fa-steam" id='steam'></i>
+                    </Link>
+                </li>
             </ul>
         </div>
     );

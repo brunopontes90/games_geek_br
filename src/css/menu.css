@@ -65,3 +65,15 @@ ul{
 #xbox:hover{
     font-size: 41pt;
 }
+
+#steam{
+    color: var(--white);
+    font-size: 40pt;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+#steam:hover{
+    font-size: 41pt;
+}

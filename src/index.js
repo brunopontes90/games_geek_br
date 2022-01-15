@@ -6,6 +6,7 @@ import Sobre from './pages/Sobre';
 import Contato from './pages/Contato/index';
 import Playstation from './pages/Playstation/index';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Steam from "./pages/Steam/index";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path={'sobre-nos'} element={<Sobre />}/>
         <Route path={'contato'} element={<Contato />} />
         <Route path={'playstation'} element={<Playstation/>} />
+        <Route path={'steam'} element={<Steam/>} />
       </Routes>
     </BrowserRouter>,
     document.getElementById('root')
