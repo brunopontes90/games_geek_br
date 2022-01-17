@@ -6,6 +6,7 @@ export default function Menu()
 {
     return(
         <div>
+            <h1 id='titulo'>Games Geek</h1>
             <div id="img"></div>
             <ul>
                 <li>
@@ -20,19 +21,24 @@ export default function Menu()
             </ul>
             <ul>
                 <li>
-                    <Link to="/playstation">
+                    <a href='https://blog.br.playstation.com/' target="_blank">
                         <i class="fab fa-playstation" id='play'></i>
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link to="/xbox">
+                    <a href='https://windowsclub.com.br/category/xbox-noticias/' target="_blank">
                         <i class="fab fa-xbox" id='xbox'></i>
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link to="/steam">
+                    <a href='https://store.steampowered.com/news/collection/steam/' target="_blank">
                         <i class="fab fa-steam" id='steam'></i>
-                    </Link>
+                    </a>
+                </li>
+                <li>
+                    <a href='https://www.nintendo.pt/Noticias/Noticias-e-atualizacoes-11145.html' target="_blank">
+                    <i class="fas fa-gamepad" id='nintendo'></i>
+                    </a>
                 </li>
             </ul>
         </div>

@@ -4,10 +4,22 @@
     --white: #FFFFFF;
     --blue:  #665cbe;
     --green: #9bc848;
+    --red: #FF0000;
 }
 
 body{
     margin: 0%;
+}
+
+#titulo{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 10px;
+    text-align: center;
+    font-size: 30pt;
+    text-transform: uppercase;
+    color: var(--orange);
+    background-color: var(--black);
 }
 
 #img{
@@ -40,6 +52,13 @@ ul{
 .link:hover{
     font-size: 15pt;
     color: var(--orange);
+}
+
+#noticias{
+    text-align: center;
+    font-size: 30pt;
+    text-transform: uppercase;
+    color: var(--white);
 }
 
 #play{
@@ -76,4 +95,16 @@ ul{
 
 #steam:hover{
     font-size: 41pt;
+}
+
+#nintendo{
+    color: var(--red);
+    font-size: 44pt;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#nintendo:hover{
+    font-size: 45pt;
 }
